@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Image Search</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="link">
+        <a title="Image Search" href="/index.html"> Google Search </a>
+        &nbsp &nbsp &nbsp &nbsp
+        <a margin="30px" title="Advanced Search" href="/advanced_seach.html"> Advanced Search </a>
+    </div>
+    <div class="google">
+        <img src="google.png" alt="Google">
+        <h4>Imágenes</h4>
+    </div>
+
+    <div class="container">
+
+        <div class="input-wrapper">
+            <form action="https://google.com/search">
+
+                <input type="text" autofocus name="q" placeholder="Buscar en Google o escribir una URL">
+                <svg xmlns="http://www.w3.org/2000/svg" class="input-icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                        clip-rule="evenodd" />
+                </svg>
+                <input type="hidden" name="tbm" value="isch" />
+                <input class="submit" type="hidden" value="Google Image Search">
+
+
+        </div>
+        <button type="submit" tbm="isch">
+            Google Image Search
+        </button>
+
+</body>
+
+</html>
